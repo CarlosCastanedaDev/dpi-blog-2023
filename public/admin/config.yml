@@ -20,6 +20,12 @@ collections: # A list of collections the CMS should be able to edit
       #     default: "../../layouts/Posts.astro",
       #   }
       - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Featured",
+          name: "featured",
+          widget: "boolean",
+          default: false,
+        }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Image", name: "image", widget: "image", required: false }
