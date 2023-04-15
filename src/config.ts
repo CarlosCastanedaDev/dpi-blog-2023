@@ -1,13 +1,13 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/",
+  website: "https://dpi-blog-2023.netlify.app",
   author: "Carlos Castaneda",
   desc: "A blog documenting my time at DPI Bootcamp",
   title: "DPI Bootcamp Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 5,
 };
 
 export const LOGO_IMAGE = {
