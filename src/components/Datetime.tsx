@@ -34,9 +34,11 @@ const FormattedDatetime = ({ datetime }: { datetime: string | Date }) => {
     day: "numeric",
   });
 
-  const time = myDatetime.toLocaleTimeString(["en-US"], {
+  const time = myDatetime.toLocaleTimeString("en-US", {
     hour: "2-digit",
     minute: "2-digit",
+    timeZone: "America/Chicago",
+    timeZoneName: "short",
   });
 
   return (
